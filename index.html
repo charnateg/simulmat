@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SimulMat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <main id="stage">
+      <canvas id="canvas"></canvas>
+      <div class="hud">
+        <div class="hud-title">// SimulMat</div>
+        <div class="hud-stat" id="hud-fps">FPS ·</div>
+        <div class="hud-stat" id="hud-particles">Particles ·</div>
+        <div class="hud-tool" id="hud-tool">Tool: HAND</div>
+        <div class="hud-hint">L-drag interact · R-drag camera · Scroll zoom</div>
+      </div>
+      <div class="toolbar" id="toolbar"></div>
+      <span class="bracket tl"></span>
+      <span class="bracket tr"></span>
+      <span class="bracket bl"></span>
+      <span class="bracket br"></span>
+    </main>
+    <aside id="panel"></aside>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
